@@ -39,3 +39,5 @@ transcript-to-okf --in ./meeting.vtt --title "Q4 Architecture Review" --topic "P
 ## License
 
 MIT © OneMira Builders
+
+- **[okf-wiki-mcp](https://github.com/onemira-space/okf-wiki-mcp)** — Zero-dependency offline Model Context Protocol (`MCP`) server & CLI for local Google OKF v0.2 and Obsidian Markdown meeting vaults (`brew install onemira-space/tap/okf-wiki-mcp` · [Docs](https://onemira-space.github.io/okf-wiki-mcp/) · [OneMira MCP Guide](https://onemira.com/docs/mcp-integration)).
