@@ -1,0 +1,41 @@
+{
+  "name": "transcript-to-okf",
+  "version": "1.0.0",
+  "description": "Zero-dependency offline CLI & ESM library to migrate Otter.ai, Plaud, HiNotes (HiDock), Notta, Teams/Zoom WebVTT, and SRT transcripts into Google Open Knowledge Format (OKF v0.2) Markdown for Obsidian, Claude MCP, Cursor & OneMira.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "bin": {
+    "transcript-to-okf": "./bin/transcript-to-okf.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "okf",
+    "open-knowledge-format",
+    "markdown",
+    "obsidian",
+    "otter-ai",
+    "plaud",
+    "hinotes",
+    "notta",
+    "webvtt",
+    "srt",
+    "transcript",
+    "mcp",
+    "onemira"
+  ],
+  "homepage": "https://onemira.com/blogs/ai-voice-recorder-for-obsidian-and-local-markdown",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onemira-space/transcript-to-okf.git"
+  },
+  "author": "OneMira (https://onemira.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
